@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Headshot coming soon">
+  <rect width="800" height="800" fill="#ece6dc"/>
+  <circle cx="400" cy="315" r="135" fill="#cfc6b8"/>
+  <path d="M150 800c18-170 128-272 250-272s232 102 250 272z" fill="#cfc6b8"/>
+  <text x="400" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#7a7266" letter-spacing="2">PHOTO COMING SOON</text>
+</svg>

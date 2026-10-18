@@ -1,8 +1,9 @@
 {
   "_meta": {
     "name": "Published page",
-    "savedAt": "2026-10-18T20:30:00.000Z",
-    "note": "Initial copy of carmelvalleyranch.com/golf/golf-academy/ as of Oct 18, 2026"
+    "savedAt": "2026-10-18T22:06:13.544Z",
+    "kind": "published",
+    "note": "Leadership updated: Ryan Spence and Cooper Essick (placeholder photos)"
   },
   "page": {
     "title": "Learn Golf at Carmel Valley Ranch | Golf Academy"
@@ -19,9 +20,18 @@
       "type": "anchorMenu",
       "label": "Jump links under the banner",
       "links": [
-        { "label": "Instruction", "target": "instruction" },
-        { "label": "Junior Golf", "target": "junior-golf" },
-        { "label": "Leadership", "target": "leadership" }
+        {
+          "label": "Instruction",
+          "target": "instruction"
+        },
+        {
+          "label": "Junior Golf",
+          "target": "junior-golf"
+        },
+        {
+          "label": "Leadership",
+          "target": "leadership"
+        }
       ]
     },
     {
@@ -29,9 +39,18 @@
       "label": "Introduction",
       "body": "<p>If you want to take your game to the next level, it’s time to go back to school—The Carmel Valley Ranch Golf Academy, that is! This personalized program includes individual guidance, playing lessons, and more.</p><p>Our Golf Academy provides the finest golf instruction with ample individual attention. It includes state-of-the-art video analysis, a maximum student-to-teacher ratio of four-to-one, on-course lessons, and&nbsp;professional club fitting&nbsp;with renowned brands such as TaylorMade and Titleist. Private options are available as well.</p>"
     },
-    { "type": "anchor", "id": "instruction" },
-    { "type": "divider" },
-    { "type": "heading", "label": "Instruction heading", "text": "Instruction" },
+    {
+      "type": "anchor",
+      "id": "instruction"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "label": "Instruction heading",
+      "text": "Instruction"
+    },
     {
       "type": "tabs",
       "label": "Instruction programs and prices",
@@ -42,11 +61,31 @@
           "subtitle": "",
           "intro": "",
           "rows": [
-            { "title": "One-day", "description": "<p>Our one-day program focuses on the three most important clubs in the bag: the driver, the wedge, and the putter. Includes a 9-hole playing lesson.</p>", "price": "$695" },
-            { "title": "Two-day", "description": "<p>Personalized instruction for all facets of the game over two days, including video analysis and a 9-hole playing lesson each day.</p>", "price": "$995" },
-            { "title": "Three-day", "description": "<p>This extensive offering includes personal coaching for every part of the student’s game, from tee to green. The program also features a state-of-the-art video swing analysis and a 9-hole playing lesson each day.</p>", "price": "$1,295" },
-            { "title": "Four-day", "description": "<p>The ultimate instruction package—with ample time to work out the details of your swing, your short game, your putting, the mental game, and more. Video analysis and personalized instruction are included, along with a 9-hole playing lesson each day.</p>", "price": "$1,595" },
-            { "title": "Private", "description": "<p>Our private school is the best way to improve your game and achieve your goals in the shortest amount of time. Whether you’re a beginner or seasoned player, this offering will allow you to spend one-on-one time with your golf professional throughout your entire stay.</p>", "price": "One day $895\nTwo days $1,495\nThree days $1,995\nFour days $2,395" }
+            {
+              "title": "One-day",
+              "description": "<p>Our one-day program focuses on the three most important clubs in the bag: the driver, the wedge, and the putter. Includes a 9-hole playing lesson.</p>",
+              "price": "$695"
+            },
+            {
+              "title": "Two-day",
+              "description": "<p>Personalized instruction for all facets of the game over two days, including video analysis and a 9-hole playing lesson each day.</p>",
+              "price": "$995"
+            },
+            {
+              "title": "Three-day",
+              "description": "<p>This extensive offering includes personal coaching for every part of the student’s game, from tee to green. The program also features a state-of-the-art video swing analysis and a 9-hole playing lesson each day.</p>",
+              "price": "$1,295"
+            },
+            {
+              "title": "Four-day",
+              "description": "<p>The ultimate instruction package—with ample time to work out the details of your swing, your short game, your putting, the mental game, and more. Video analysis and personalized instruction are included, along with a 9-hole playing lesson each day.</p>",
+              "price": "$1,595"
+            },
+            {
+              "title": "Private",
+              "description": "<p>Our private school is the best way to improve your game and achieve your goals in the shortest amount of time. Whether you’re a beginner or seasoned player, this offering will allow you to spend one-on-one time with your golf professional throughout your entire stay.</p>",
+              "price": "One day $895\nTwo days $1,495\nThree days $1,995\nFour days $2,395"
+            }
           ],
           "note": "",
           "buttons": []
@@ -56,8 +95,16 @@
           "subtitle": "",
           "intro": "",
           "rows": [
-            { "title": "Director", "description": "<p>One-hour group lesson with Director of Instruction</p>", "price": "Two students $170\nThree students $190\nFour students $210" },
-            { "title": "Academy Staff", "description": "<p>One-hour group lesson with Golf Academy staff</p>", "price": "Two students $140\nThree students $160\nFour students $180" }
+            {
+              "title": "Director",
+              "description": "<p>One-hour group lesson with Director of Instruction</p>",
+              "price": "Two students $170\nThree students $190\nFour students $210"
+            },
+            {
+              "title": "Academy Staff",
+              "description": "<p>One-hour group lesson with Golf Academy staff</p>",
+              "price": "Two students $140\nThree students $160\nFour students $180"
+            }
           ],
           "note": "",
           "buttons": []
@@ -67,10 +114,26 @@
           "subtitle": "",
           "intro": "<p>Our golf instruction is tailored to the goals and objectives of each individual—from beginners picking up a club for the first time to aspiring tournament players.</p>",
           "rows": [
-            { "title": "Private Lesson: Director", "description": "<p>Private golf lessons with Director of Instruction</p>", "price": "One hour: $150\nHalf-hour: $80" },
-            { "title": "Video instruction", "description": "<p>One-hour golf lesson with video instruction</p><p>Our Golf Academy professionals will analyze your swing and email a personalized video to your home or office.</p>", "price": "$150" },
-            { "title": "Private Lesson: Academy Staff", "description": "<p>Private golf lessons with Golf Academy staff</p>", "price": "One hour: $120\nHalf-hour: $60" },
-            { "title": "Private Junior", "description": "<p>Private junior lessons (17 and younger)</p>", "price": "One hour: $100\nHalf-hour: $50" }
+            {
+              "title": "Private Lesson: Director",
+              "description": "<p>Private golf lessons with Director of Instruction</p>",
+              "price": "One hour: $150\nHalf-hour: $80"
+            },
+            {
+              "title": "Video instruction",
+              "description": "<p>One-hour golf lesson with video instruction</p><p>Our Golf Academy professionals will analyze your swing and email a personalized video to your home or office.</p>",
+              "price": "$150"
+            },
+            {
+              "title": "Private Lesson: Academy Staff",
+              "description": "<p>Private golf lessons with Golf Academy staff</p>",
+              "price": "One hour: $120\nHalf-hour: $60"
+            },
+            {
+              "title": "Private Junior",
+              "description": "<p>Private junior lessons (17 and younger)</p>",
+              "price": "One hour: $100\nHalf-hour: $50"
+            }
           ],
           "note": "",
           "buttons": []
@@ -80,16 +143,31 @@
           "subtitle": "",
           "intro": "<p>The best way to learn and play better golf is to get on the course! These lessons help players better understand course management, proper club selection, visualization, and the mental side of the game.</p>",
           "rows": [
-            { "title": "9 holes", "description": "<p>On-course playing lesson (9 holes)</p>", "price": "$300 per person + twilight green fee" },
-            { "title": "18 holes", "description": "<p>On-course playing lesson (18 holes)</p>", "price": "$600 per person + twilight green fee" }
+            {
+              "title": "9 holes",
+              "description": "<p>On-course playing lesson (9 holes)</p>",
+              "price": "$300 per person + twilight green fee"
+            },
+            {
+              "title": "18 holes",
+              "description": "<p>On-course playing lesson (18 holes)</p>",
+              "price": "$600 per person + twilight green fee"
+            }
           ],
           "note": "",
           "buttons": []
         }
       ]
     },
-    { "type": "anchor", "id": "junior-golf" },
-    { "type": "heading", "label": "Junior Golf heading", "text": "Junior Golf" },
+    {
+      "type": "anchor",
+      "id": "junior-golf"
+    },
+    {
+      "type": "heading",
+      "label": "Junior Golf heading",
+      "text": "Junior Golf"
+    },
     {
       "type": "tabs",
       "label": "Junior Golf programs and prices",
@@ -100,21 +178,43 @@
           "subtitle": "Where kids call the shots",
           "intro": "<p>Because junior golf is as much about building confidence and good sportsmanship as cultivating a love of the game, our professional approach emphasizes fun in every aspect. New to The Ranch, our Junior Golf Program’s philosophy mirrors the mission of the Titleist Performance Institute, embracing two key ideas:</p><ul><li>Create Athletes First, Golfers Second. We believe it’s much easier to create a great golfer out of a great athlete.</li><li>Golf Is Hard, Make It Fun. We know it takes a lot of time and effort to become proficient, so our junior program has to be a fun playing experience. That said, we encourage our juniors to play as many other sports as possible to become well-rounded athletes.</li></ul>",
           "rows": [
-            { "title": "Level 1: fun", "description": "<p>AGES 6-8, SATURDAYS 12 – 1 P.M.<br> The main focus for our youngest golfers is to create athletes. We will also work on basic golf skills such as grip, stance, and alignment.</p>", "price": "$120 Golf Members\n$140 River Ranch Members\n$160 Outside Guests" },
-            { "title": "Level 2: play", "description": "<p>AGES 9-12, SATURDAYS 1 – 2 P.M.<br> Children will learn everything they need to know about how to swing, putt, chip, pitch, and hit bunker shots. We will also help them maintain their athleticism during these years.</p>", "price": "$120 Golf Members\n$140 River Ranch Members\n$160 Outside Guests" }
+            {
+              "title": "Level 1: fun",
+              "description": "<p>AGES 6-8, SATURDAYS 12 – 1 P.M.<br> The main focus for our youngest golfers is to create athletes. We will also work on basic golf skills such as grip, stance, and alignment.</p>",
+              "price": "$120 Golf Members\n$140 River Ranch Members\n$160 Outside Guests"
+            },
+            {
+              "title": "Level 2: play",
+              "description": "<p>AGES 9-12, SATURDAYS 1 – 2 P.M.<br> Children will learn everything they need to know about how to swing, putt, chip, pitch, and hit bunker shots. We will also help them maintain their athleticism during these years.</p>",
+              "price": "$120 Golf Members\n$140 River Ranch Members\n$160 Outside Guests"
+            }
           ],
           "note": "<p>Price is on a monthly basis. When you sign up for the program, your child will be registered for a calendar month. There is also an annual fee of $50 that includes a hat and shirt. For more information and to register, please contact us.</p>",
           "buttons": [
-            { "label": "Email Us", "link": "mailto:t.southard@carmelvalleyranch.com", "style": "solid", "newTab": false },
-            { "label": "Call 831.574.1820", "link": "tel:8315741820", "style": "hollow", "newTab": false }
+            {
+              "label": "Email Us",
+              "link": "mailto:cooper.essick@carmelvalleyranch.com",
+              "style": "solid",
+              "newTab": false
+            },
+            {
+              "label": "Call 831.574.1820",
+              "link": "tel:8315741820",
+              "style": "hollow",
+              "newTab": false
+            }
           ]
         },
         {
           "name": "3-day Junior Camp",
           "subtitle": "",
-          "intro": "<p>Our junior camps are a great opportunity for kids ages 6-12 to get out and learn the game of golf—while receiving professional guidance from PGA Director of Instruction Todd Southard and the professionals at Carmel Valley Ranch. The camps cover the full swing, short game, putting, etiquette, and on-course play. Lunch is provided each day.</p>",
+          "intro": "<p>Our junior camps are a great opportunity for kids ages 6-12 to get out and learn the game of golf—while receiving professional guidance from Director of Instruction Cooper Essick and the professionals at Carmel Valley Ranch. The camps cover the full swing, short game, putting, etiquette, and on-course play. Lunch is provided each day.</p>",
           "rows": [
-            { "title": "", "description": "<p>August 5-7<br> <em>Offered in summer </em>|<em> 10:00 a.m. to noon</em></p>", "price": "$250 Members & Resort Guests\n$295 Outside Guests" }
+            {
+              "title": "",
+              "description": "<p>August 5-7<br> <em>Offered in summer </em>|<em> 10:00 a.m. to noon</em></p>",
+              "price": "$250 Members & Resort Guests\n$295 Outside Guests"
+            }
           ],
           "note": "",
           "buttons": []
@@ -129,35 +229,61 @@
       "heading": "Is your youngster into golf or tennis?",
       "body": "<p>Our special camps at The Ranch offer excellent opportunities for professional instruction in both sports. In the course, experienced Golf Academy instructors help with swing development, the short game, putting, etiquette, and on-course play. At the River Ranch courts, our PBI tennis professional teaches fundamentals, play, match preparation, and more. Camp schedules even allow juniors to attend both sessions if they wish, with lunch included in between!</p>"
     },
-    { "type": "divider" },
-    { "type": "anchor", "id": "leadership" },
-    { "type": "divider" },
-    { "type": "heading", "label": "Leadership heading", "text": "Leadership" },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "anchor",
+      "id": "leadership"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "label": "Leadership heading",
+      "text": "Leadership"
+    },
     {
       "type": "bio",
-      "label": "Sam Frick",
+      "label": "Ryan Spence",
       "imageLeft": false,
-      "image": "https://carmelvalleyranch.com/wp-content/uploads/2025/08/cvr-sam.jpg",
-      "alt": "Sam Frick",
-      "name": "Sam Frick",
-      "title": "PGA Head Golf Professional",
-      "body": "<p>Sam Frick joined Carmel Valley Ranch after six years at Tehama Golf Club, where he facilitated day-to-day operations, ran tournament programs, and managed the membership experience. An active part of the local PGA community, he is committed to helping both members and guests maximize their enjoyment of the game.</p><p>Sam and his wife live in Monterey with their young son, Jensen, and Rosie the golden retriever.</p>",
+      "image": "uploads/placeholder-headshot.svg",
+      "alt": "Ryan Spence",
+      "name": "Ryan Spence",
+      "title": "Head Golf Professional",
+      "body": "<p>Ryan Spence leads the golf operation at Carmel Valley Ranch as Head Golf Professional, overseeing the golf shop, tournament programs, and the experience of every member and guest who tees it up at The Ranch.</p><p>[Placeholder: add Ryan’s background, previous clubs, and PGA credentials.]</p>",
       "buttons": [
-        { "label": "Email Sam", "link": "mailto:sam.frick@carmelvalleyranch.com", "style": "solid", "newTab": true },
-        { "label": "Call Sam", "link": "tel:831.574.1820", "style": "hollow", "newTab": true }
+        {
+          "label": "Email Ryan",
+          "link": "mailto:ryan.spence@carmelvalleyranch.com",
+          "style": "solid",
+          "newTab": true
+        },
+        {
+          "label": "Call Ryan",
+          "link": "tel:831.574.1820",
+          "style": "hollow",
+          "newTab": true
+        }
       ]
     },
     {
       "type": "bio",
-      "label": "Todd Southard",
+      "label": "Cooper Essick",
       "imageLeft": true,
-      "image": "https://carmelvalleyranch.com/wp-content/uploads/2025/08/cvr-todd.jpg",
-      "alt": "Todd Southard",
-      "name": "Todd Southard",
-      "title": "PGA Director of Instruction",
-      "body": "<p>Todd Southard’s professional golf career includes 15 years as a teacher and nearly two decades of playing in tournaments on the Asian PGA Tour, Nationwide Tour, and Canadian PGA Tour. He has personally instructed a number of notable clients, including Bill Clinton, Don Johnson, Randy Quaid, Steve Young, and Bill Walsh.</p><p>Todd’s instruction focuses on three keys to success: squaring the clubface, turning the body correctly, and transferring your weight properly. When you put all three components together, you have a winning combination!</p>",
+      "image": "uploads/placeholder-headshot.svg",
+      "alt": "Cooper Essick",
+      "name": "Cooper Essick",
+      "title": "Director of Instruction",
+      "body": "<p>Cooper Essick leads all golf instruction at Carmel Valley Ranch, including player development, corporate instruction, golf schools, golf activities, and junior player growth. He began his Ranch journey more than 12 years ago in outside service operations, moved into the golf shop, and became Assistant Golf Professional in 2024 before his promotion to Director of Instruction.</p><p>Cooper has coached everyone from beginners to PGA Tour players for over a decade, blending modern technology with a holistic approach. He is enrolled in the PGA Associate program and Titleist Performance Institute training. Off the course, you will find him with his two labradoodles, Duffy and Dudley.</p>",
       "buttons": [
-        { "label": "Email Todd", "link": "mailto:todd.southard@carmelvalleyranch.com", "style": "solid", "newTab": true }
+        {
+          "label": "Email Cooper",
+          "link": "mailto:cooper.essick@carmelvalleyranch.com",
+          "style": "solid",
+          "newTab": true
+        }
       ]
     }
   ]
