@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Golf Academy Page Editor</title>
+<link rel="stylesheet" href="assets/cms/editor.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <div class="brand-text"><strong>Golf Academy</strong><span>Page editor</span></div>
+  </div>
+  <div class="docstate" aria-live="polite">
+    <span class="docstate-kind" id="docKind">Published</span>
+    <span class="docstate-name" id="docName">Golf Academy page</span>
+    <span class="docstate-dirty" id="docDirty" hidden>Unsaved changes</span>
+    <button class="linklike" id="btnDiscard" type="button" hidden>Discard</button>
+  </div>
+  <div class="actions">
+    <button class="btn btn-ghost only-narrow" id="btnTogglePreview" type="button">Preview</button>
+    <button class="btn btn-ghost" id="btnDrafts" type="button" title="Open or manage saved previews">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      <span class="label-wide">Saved previews</span>
+    </button>
+    <button class="btn" id="btnShare" type="button" title="Save your changes as a preview and get a link to share">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
+      Share preview
+    </button>
+    <button class="btn btn-primary" id="btnPublish" type="button" title="Make these changes the main version of the prototype page">Publish</button>
+    <button class="btn btn-ghost btn-icon" id="btnSettings" type="button" aria-label="Settings" title="Settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="workspace">
+  <aside class="panel" id="panel" aria-label="Page content">
+    <p class="panel-intro">Edit text and photos below and the preview updates as you type. <b>Click anything in the preview</b> to jump to it here.</p>
+    <div id="cards"></div>
+  </aside>
+  <section class="stage" aria-label="Preview">
+    <div class="stagebar">
+      <div class="seg" role="group" aria-label="Preview size">
+        <button type="button" data-device="desktop" aria-pressed="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Desktop</button>
+        <button type="button" data-device="tablet" aria-pressed="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M11 18h2"/></svg>Tablet</button>
+        <button type="button" data-device="phone" aria-pressed="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>Phone</button>
+      </div>
+      <span class="spacer"></span>
+      <span class="stage-note" id="stageNote">Live preview</span>
+      <button class="btn btn-small btn-ghost" id="btnOpenSaved" type="button" title="Open the last saved version in a new tab">Open saved version</button>
+    </div>
+    <div class="frame-wrap" id="frameWrap">
+      <div class="frame-loading" id="frameLoading">Loading preview</div>
+      <div class="frame-holder" id="frameHolder"><iframe id="preview" title="Live preview of the Golf Academy page"></iframe></div>
+    </div>
+  </section>
+</div>
+
+<div id="modalRoot"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script>window.CMS_NO_BOOT = true;</script>
+<script src="assets/cms/common.js"></script>
+<script src="assets/cms/render.js"></script>
+<script src="assets/cms/editor.js"></script>
+</body>
+</html>

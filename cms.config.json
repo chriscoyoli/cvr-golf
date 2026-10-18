@@ -1,0 +1,7 @@
+{
+  "owner": "",
+  "repo": "",
+  "branch": "main",
+  "siteName": "Carmel Valley Ranch Golf Academy",
+  "_help": "Leave owner and repo blank when the site runs on <owner>.github.io/<repo>/ and they are detected automatically. Fill them in only if you put the site on a custom domain."
+}
