@@ -62,6 +62,8 @@ If the repository is public, copied font files are publicly downloadable from it
 
 ## Privacy and what's visible
 
+- The page, previews and editor ask for a passphrase (currently **fore**) and remember it in that browser. Include the passphrase when you email a preview link. This keeps casual visitors out but is not real security: GitHub Pages is static hosting, so anyone who browses the repository can read its files. To change the passphrase, see the note at the top of `assets/cms/gate.js`.
+
 - Preview links are unlisted, not secret: anyone with the link can open it, and in a public repository anyone can browse the files.
 - Every page has `noindex`, so search engines won't list it, and a small "not the live website" note in the corner (visitors can close it; add `&badge=0` to a link to hide it for screenshots).
 - Every save is a Git commit, so every version is recoverable from the repository history.
